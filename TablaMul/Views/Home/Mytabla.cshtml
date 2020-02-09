@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @{
+            @for (int i = 1; i <= 12; i++)
+            {
+                <h2>Tablade del @i</h2>
+
+
+                
+                for (int n = 1; n <= 12; n++)
+                {
+
+                   <h1> <p>@i  X @n = @(i * n)</p> </h1> 
+                }
+
+            }
+        }
+
+
+
+    </div>
+</body>
+</html>
